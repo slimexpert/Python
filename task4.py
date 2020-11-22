@@ -12,7 +12,6 @@ def divisionby(a, b):
     return 'На ноль делить нельзя'
 
 print (divisionby(input('Введите делимое: '), input('Введите делитель: ') ))
-
  
 
 #2
@@ -83,7 +82,6 @@ print(str_title(input('Ведите слова в нижнем регистре:
 
 #6 / 1
 
-
 def int_func(str_title):
     return str_title.title()
 
@@ -96,27 +94,3 @@ for x in user_text:
     result_text1 = result_text1 + ' ' + str_title(x) 
     
 print(f'результат 1: {result_text} \nрезультат 2: {result_text1}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
