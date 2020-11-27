@@ -139,19 +139,3 @@ except IOError:
     print('Произошла ошибка чтения или записи файла')
 finally:
     file_object.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
