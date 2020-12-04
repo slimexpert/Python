@@ -99,8 +99,6 @@ class organic_cell:
     def make_order(self, row_count):
         return '\n'.join(['*' * row_count for _ in range(self.cell_count // row_count)]) + '\n' + '*' *(self.cell_count % row_count)
         
-
-
 cell_obj = organic_cell(18)
 cell_obj1 = organic_cell(4)
 print(cell_obj)
@@ -111,5 +109,3 @@ print(f'Вычитание 2-х исходных клеток: {cell_obj - cell_
 print(f'Умножение 2-х исходных клеток: {cell_obj * cell_obj1}')
 print(f'Деление 2-х исходных клеток: {cell_obj // cell_obj1}')
 print(f'Вывод по рядам \n{cell_obj.make_order(5)} ')
-
-
