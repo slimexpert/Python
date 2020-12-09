@@ -74,17 +74,3 @@ def fact(n):
         yield x
 for el in fact(5):
     print(el)
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
